@@ -9,33 +9,33 @@ const posts = await getBlogPosts();
 const featured = posts.find((post) => post.featured) || posts[0];
 ---
 
-<Layout title="My MetaTrader / Forex trading command" description={site.description}>
+<Layout title="My MetaTrader / DeFi leverage trading DEX" description={site.description}>
   <ArchiveNotice />
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">My MetaTrader / Forex trading command</p>
-      <h1>Trade smarter with automation and precision.</h1>
+      <p class="eyebrow">My MetaTrader / Innovate Leverage Trading DEX</p>
+      <h1>Trade smarter, not harder with up to 1000x leverage.</h1>
       <p class="lead">
-        My MetaTrader gives forex traders a focused command surface for strategy automation,
-        market analysis, and disciplined execution.
+        Take your crypto trading to the next level with leverage, a powerful tool that allows
+        for larger trades and greater returns. Trade on the cutting edge of DeFi.
       </p>
       <div class="button-row">
-        <a class="button" href="/gateway/">Explore command OS</a>
+        <a class="button" href="/gateway/">Trade now</a>
         <a class="button secondary" href="/blog/">Read field notes</a>
       </div>
     </div>
-    <div class="hero-panel" aria-label="My MetaTrader signal summary">
+    <div class="hero-panel" aria-label="My MetaTrader leverage summary">
       <div>
-        <span>Core view</span>
-        <strong>MetaTrader automation</strong>
+        <span>Max leverage</span>
+        <strong>Up to 1000x</strong>
       </div>
       <div>
-        <span>Signals</span>
-        <strong>Forex, strategy, execution</strong>
+        <span>Execution</span>
+        <strong>No scam wick</strong>
       </div>
       <div>
-        <span>Focus</span>
-        <strong>Disciplined, systematic trading</strong>
+        <span>Yield</span>
+        <strong>#RealYield vaults</strong>
       </div>
     </div>
   </section>
@@ -43,8 +43,8 @@ const featured = posts.find((post) => post.featured) || posts[0];
   <section class="section band">
     <div class="section-inner split">
       <div>
-        <p class="eyebrow">Why it exists</p>
-        <h2>Traders need discipline before perfect prediction.</h2>
+        <p class="eyebrow">Why using My MetaTrader</p>
+        <h2>Trade on the cutting edge of DeFi.</h2>
       </div>
       <div class="history-list">
         {site.launchContext.map((item) => <p>{item}</p>)}
@@ -54,20 +54,20 @@ const featured = posts.find((post) => post.featured) || posts[0];
 
   <section class="section">
     <div class="section-inner">
-      <p class="eyebrow">Command architecture</p>
-      <h2>One view for the serious forex operator.</h2>
+      <p class="eyebrow">How it works</p>
+      <h2>Three steps to start trading.</h2>
       <div class="grid">
         <article class="card">
-          <h3>Strategy engine</h3>
-          <p>Encode entry rules, risk limits, and exit logic into reproducible MetaTrader workflows.</p>
+          <h3>Connect your wallet</h3>
+          <p>Use a web3 browser or wallet app that supports Dapp interaction, such as MetaMask, and link it to access My MetaTrader.</p>
         </article>
         <article class="card">
-          <h3>Market review</h3>
-          <p>Turn price action and structure into clear decisions for the next trade and portfolio move.</p>
+          <h3>Pick a trading pair</h3>
+          <p>Select your assets from a wide range of crypto and forex trading pairs, and trade with precision leveraging your positions.</p>
         </article>
         <article class="card">
-          <h3>Execution rhythm</h3>
-          <p>Connect analysis, automation, and trade review into one consistent daily habit.</p>
+          <h3>Make a trade</h3>
+          <p>Insert capital, set stop-loss and take-profit levels, and select the appropriate leverage ratio to maximize profits while managing risk.</p>
         </article>
       </div>
     </div>
@@ -77,7 +77,7 @@ const featured = posts.find((post) => post.featured) || posts[0];
     <section class="section band">
       <div class="section-inner">
         <p class="eyebrow">Featured note</p>
-        <h2>Start with trading command.</h2>
+        <h2>Start investing today.</h2>
         <PostCard post={featured} />
       </div>
     </section>
