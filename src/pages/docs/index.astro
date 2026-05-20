@@ -6,23 +6,33 @@ import Layout from "@/layouts/Layout.astro";
   <section class="section">
     <div class="section-inner docs">
       <p class="eyebrow">Docs</p>
-      <h1>work command notes</h1>
-      <p class="lead">A concise reference for creating and deploying repeatable SaaS work surfaces.</p>
+      <h1>Trading reference</h1>
+      <p class="lead">A concise guide to using My MetaTrader: wallets, leverage, risk, and yield vaults.</p>
       <article class="card">
-        <h2>Required assets</h2>
+        <h2>Getting started</h2>
         <ul>
-          <li>Generate no more than 2-3 logo variants before choosing a primary Codex Workplace mark.</li>
-          <li>Create one hero background for the homepage and a reusable Open Graph visual.</li>
-          <li>Create at least three images per blog post: one cover and two inline images.</li>
-          <li>Store prompt metadata next to generated assets so the visual system is reproducible.</li>
+          <li>Install MetaMask or any EVM-compatible wallet and fund it with the asset you want to trade.</li>
+          <li>Connect your wallet to My MetaTrader and approve the DEX contract for the trading pair.</li>
+          <li>Select a pair, choose your leverage ratio, and always set a stop-loss before confirming.</li>
+          <li>Review position size, margin requirements, and liquidation price before executing any trade.</li>
         </ul>
       </article>
       <article class="card">
-        <h2>Suggested environment variables</h2>
-        <pre><code>SITE_URL=https://codexworkplace.com
-FAL_KEY=...
-CLOUDFLARE_ACCOUNT_ID=...
-RAILWAY_TOKEN=...</code></pre>
+        <h2>Risk checklist</h2>
+        <ul>
+          <li>High leverage amplifies both gains and losses. Never risk more than you can afford to lose.</li>
+          <li>Use stop-loss orders on every trade. Unprotected positions can be liquidated quickly.</li>
+          <li>Monitor margin health. Add margin or reduce position size if approaching liquidation.</li>
+          <li>Understand funding rates and fees. These accrue while positions remain open.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Yield vaults</h2>
+        <ul>
+          <li>Deposit stablecoins into vaults to earn real yield from protocol trading fees.</li>
+          <li>Yield is paid in kind. There are no inflationary token emissions.</li>
+          <li>Deposits and withdrawals are on-chain and non-custodial.</li>
+        </ul>
       </article>
     </div>
   </section>

@@ -154,6 +154,18 @@ const featured = posts.find((post) => post.featured) || posts[0];
     padding-left: 16px;
   }
 
+  .hero .button {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  .hero .button.secondary {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.45);
+    color: #fff;
+  }
+
   @media (max-width: 860px) {
     .hero,
     .split {

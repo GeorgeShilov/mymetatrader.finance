@@ -2,10 +2,11 @@
 import Layout from "@/layouts/Layout.astro";
 
 const faqs = [
-  ["What does Codex Workplace launch first?", "A polished SaaS website with homepage, pricing, docs, FAQ, contact, blog, SEO metadata, generated visuals, and deployment-ready assets."],
-  ["How many logo options are generated?", "Only 2-3 variants. The goal is fast direction, not endless brand exploration."],
-  ["How many blog images are required?", "Every blog post gets at least three images: one cover image and two inline visuals for the article body."],
-  ["Where do Cloudflare and Railway fit?", "Cloudflare handles domain, DNS, SSL, CDN, and static frontend hosting. Railway handles backend services, APIs, and databases when the SaaS needs them."]
+  ["What is My MetaTrader?", "A DeFi leverage trading DEX that offers up to 1000x leverage, no scam wick execution, and real yield vaults. You trade directly from your wallet without giving up custody."],
+  ["How do I start trading?", "Connect a web3 wallet like MetaMask, select a trading pair, choose your leverage ratio, set stop-loss and take-profit levels, and confirm the trade."],
+  ["What does no scam wick mean?", "Scam wicks are artificial price spikes that trigger liquidations. My MetaTrader uses protected price feeds and liquidation mechanics designed to filter out engineered volatility."],
+  ["How do yield vaults work?", "Deposit stablecoins into vaults to earn real yield generated from protocol trading fees. There are no inflationary token emissions."],
+  ["What are the risks of leverage trading?", "Leverage magnifies both gains and losses. Positions can be liquidated if the market moves against you. Always use stop-loss orders and only trade with capital you can afford to lose."]
 ];
 ---
 
@@ -13,7 +14,7 @@ const faqs = [
   <section class="section">
     <div class="section-inner">
       <p class="eyebrow">FAQ</p>
-      <h1>Clear answers before the first work sprint.</h1>
+      <h1>Common questions before you trade.</h1>
       <div class="faq-list">
         {faqs.map(([question, answer]) => (
           <details class="card">

@@ -6,9 +6,9 @@ export const site = {
   description:
     "My MetaTrader — a DeFi leverage trading DEX built for traders who want up to 1000x leverage, real yield vaults, and no scam wick execution.",
   launchContext: [
-    "Unleash your trading potential with leverage and limited capital, perfect for traders looking to make a big impact in the market.",
-    "Trade with confidence and security knowing our approach is legit and professional, designed for the trader looking for real results.",
-    "Stake your stablecoins and earn real income with our cutting-edge deposit vaults, designed for the digital generation."
+    "Trade with up to 1000x leverage using limited capital. Built for traders who want large market exposure without large deposits.",
+    "Self-custody, transparent execution, and no scam wick protection. Trade knowing the platform is designed to keep the game fair.",
+    "Stake stablecoins in real yield vaults and earn protocol revenue. No inflationary tokens. Just real income from real trading activity."
   ]
 };
 
