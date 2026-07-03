@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf60/6rXm1I5s92v5W0LwkGP3w.jpg",
     inlineImages: [],
     referenceUrl: "https://swapzone.io/",
     articleText: `
@@ -152,10 +152,7 @@ export const fallbackPosts: BlogPost[] = [
 <p>If you hold a meaningful amount of cryptocurrency, many experts recommend keeping the majority in cold storage and only a small operating balance in a hot wallet.</p>
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>A crypto wallet is more than a storage app; it is the gateway to your digital assets. The best choice balances security, usability, and control in a way that matches your own behavior. Take time to research the wallet provider, verify downloads, back up your seed phrase, and never store more online than you are willing to lose.</p>
-<p>Start small, test transactions with minor amounts, and upgrade your setup as your portfolio or activity grows. The peace of mind that comes from proper custody is worth far more than the few minutes spent choosing the right wallet.</p>
-    `
-  },
-  {
+<p>Start small, test transactions with minor amounts, and upgrade your setup as your portfolio or activity grows. The peace of mind that comes from proper custody is worth far more than the few minutes spent choo{
     slug: "choosing-bitcoin-wallet",
     title: "Best Bitcoin Wallet: A Practical Guide for Investors | Guide",
     description: "When you buy your first bitcoin, the exchange balance is only a temporary home. To truly control your cryptocurrency, you need a wallet. The right wallet does m",
@@ -164,7 +161,8 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf60/VGVjD35HhSe8MBz92nZFE.jpg",
+    inlineImages:ets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -272,10 +270,7 @@ export const fallbackPosts: BlogPost[] = [
 </ul>
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>Choosing the right wallet is one of the most important decisions you will make as a cryptocurrency owner. Hot wallets offer convenience for everyday use, while cold wallets provide the strongest protection for long-term holdings. The best approach for most investors is a combination: a small amount in a hot wallet for spending and the majority in cold storage for safekeeping.</p>
-<p>By prioritizing self-custody, keeping backups offline, and staying alert to common threats, you can manage your bitcoin with greater confidence. The goal is not to find a perfect product, but to match your wallet setup to your habits, your risk tolerance, and the amount you are protecting.</p>
-    `
-  },
-  {
+<p>By prioritizing self-custody, keeping backups offline, and staying alert to common threats, you can manage your bitcoin with greater confidence. The goal is not to find a perfect product, but to match your wallet setup to your h{
     slug: "crypto-wallet-guide-37",
     title: "Essential Crypto Wallet Guide: Secure, Compare & Choose",
     description: "Entering the world of Bitcoin starts with a wallet. Many newcomers assume that a wallet stores coins the same way a leather wallet stores cash. In reality, a cr",
@@ -284,6 +279,8 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf61/fLAX_ZUd39_NOWF0yZgqM.jpg",
+    inlineImages:   featured: false,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
@@ -417,12 +414,7 @@ export const fallbackPosts: BlogPost[] = [
 <li><strong>Sharing your seed phrase</strong> with anyone, even someone claiming to be support staff</li>
 </ul>
 <h2 id="final-thoughts">Final Thoughts</h2>
-<p>A crypto wallet is more than an app; it is the gatekeeper to your Bitcoin. By matching the type of wallet to your habits, choosing strong security practices, and keeping reliable backups, you can keep your funds safer while still enjoying the flexibility of digital assets.</p>
-    `
-  },
-  
-  
-  {
+<p>A crypto wallet is more than an app; it is the gatekeeper to your Bitcoin. By matching the type of wallet to your habits, choosing strong security practices, and keeping reliabl{
     slug: "understanding-leverage-trading-on-a-dex",
     title: "Understanding leverage trading on a DEX",
     description:
@@ -432,15 +424,16 @@ export const fallbackPosts: BlogPost[] = [
     category: "DeFi",
     tags: ["Leverage", "DEX", "DeFi"],
     featured: true,
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf61/bJ4QRhC7BVZwNaaJKlsDM.jpg",
+    inlineImages:
+    tags: ["Leverage", "DEX", "DeFi"],
+    featured: true,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Leverage trading on a DEX gives traders the ability to control large positions with limited capital. At My MetaTrader, traders can access up to 1000x leverage, turning a small deposit into significant market exposure. The key is understanding that leverage amplifies both gains and losses.</p>
       <p>Risk management becomes non-negotiable at high leverage. Stop-loss and take-profit levels must be set before entering any trade. Position sizing should reflect account balance and the distance to the stop. A single unprotected trade at 100x leverage can wipe an account in minutes.</p>
-      <p>The advantage of a decentralized exchange is transparency and self-custody. No central entity controls your funds. You connect your wallet, pick a trading pair, and execute trades directly on-chain with clear rules and no hidden manipulation.</p>
-    `
-  },
-  {
+      <p>The advantage of a decentralized exchange is transparency and self-custody. No central entity contro{
     slug: "why-no-scam-wick-matters-for-leverage-traders",
     title: "Why no scam wick matters for leverage traders",
     description:
@@ -449,19 +442,26 @@ export const fallbackPosts: BlogPost[] = [
     author: "My MetaTrader Team",
     category: "Security",
     tags: ["No Scam Wick", "Leverage", "DeFi"],
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf61/QUNU13bXyoVJTlGjorNPq.jpg",
+    inlineImages:or: "My MetaTrader Team",
+    category: "Security",
+    tags: ["No Scam Wick", "Leverage", "DeFi"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>A scam wick is a sudden, artificial price spike or drop that triggers stop losses and liquidations before price returns to its normal range. For leverage traders, a single wick can mean total account destruction even when the underlying trend was correct.</p>
       <p>My MetaTrader was built with no scam wick protection. Our price feeds and liquidation mechanics are designed to filter out artificial volatility and protect traders from engineered liquidations. This means your position survives the noise that wipes out traders on other platforms.</p>
-      <p>Trust in a leverage platform comes from knowing the game is fair. When price manipulation is removed from the equation, traders can focus on actual market analysis instead of worrying about exchange-engineered wicks hunting their stops.</p>
-    `
-  },
-  {
+      <p>Trust in a leverage platform comes from knowing the ga{
     slug: "earning-real-yield-with-stablecoin-deposit-vaults",
     title: "Earning real yield with stablecoin deposit vaults",
     description:
       "How My MetaTrader's deposit vaults generate real income from stablecoin staking and why #RealYield beats inflated token emissions.",
+    pubDate: "2026-05-14",
+    author: "My MetaTrader Team",
+    category: "Yield",
+    tags: ["RealYield", "Stablecoins", "Vaults"],
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf6b/guak3Xm47LECyFrJPLGj8.jpg",
+    inlineImages:ns.",
     pubDate: "2026-05-14",
     author: "My MetaTrader Team",
     category: "Yield",
@@ -471,14 +471,17 @@ export const fallbackPosts: BlogPost[] = [
     articleText: `
       <p>Most DeFi protocols promise yield that comes from printing new tokens. When the emissions slow, the yield collapses. My MetaTrader deposit vaults are built on #RealYield — income generated from actual trading fees and protocol revenue, not inflationary token rewards.</p>
       <p>Staking stablecoins in our vaults means earning real income without exposure to volatile asset prices. The digital generation deserves financial tools that combine the stability of traditional deposits with the transparency and efficiency of decentralized finance.</p>
-      <p>Before depositing, understand where yield originates. Real yield protocols share verifiable revenue. Inflationary protocols hide the source behind complex tokenomics. My MetaTrader vaults are designed for traders and investors who value clarity over illusion.</p>
-    `
-  },
-  {
+      <p>Before depositing, understand where y{
     slug: "understanding-leverage-in-defi-risks-rewards-risk-management",
     title: "Understanding Leverage in DeFi: Risks, Rewards, and Risk Management",
     description:
       "A comprehensive guide to leverage mechanics, liquidation risks, position sizing, and proven risk management strategies for decentralized leverage trading up to 1000x.",
+    pubDate: "2026-05-20",
+    author: "My MetaTrader Team",
+    category: "DeFi",
+    tags: ["Leverage", "Risk Management", "DeFi", "Liquidation", "Position Sizing"],
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf61/k8rGwu6WZOLiYAubkfllt.jpg",
+    inlineImages:to 1000x.",
     pubDate: "2026-05-20",
     author: "My MetaTrader Team",
     category: "DeFi",
