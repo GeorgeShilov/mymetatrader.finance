@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd1/roPPx6XQwZaAY0gHP-B0v.jpg",
     inlineImages: [],
     referenceUrl: "https://swapzone.io/",
     articleText: `
@@ -164,7 +164,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd1/mHCNQUAcJVbLRuXvRfcV4.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -284,7 +284,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd1/4Eu5UGdBrDAK28dChFBG4.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -432,7 +432,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "DeFi",
     tags: ["Leverage", "DEX", "DeFi"],
     featured: true,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd1/CSLqjlDYFOTXrajCFtGK0.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Leverage trading on a DEX gives traders the ability to control large positions with limited capital. At My MetaTrader, traders can access up to 1000x leverage, turning a small deposit into significant market exposure. The key is understanding that leverage amplifies both gains and losses.</p>
@@ -449,7 +449,7 @@ export const fallbackPosts: BlogPost[] = [
     author: "My MetaTrader Team",
     category: "Security",
     tags: ["No Scam Wick", "Leverage", "DeFi"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd2/nYNoxPitkdxDg9m_L_DUf.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>A scam wick is a sudden, artificial price spike or drop that triggers stop losses and liquidations before price returns to its normal range. For leverage traders, a single wick can mean total account destruction even when the underlying trend was correct.</p>
@@ -466,7 +466,7 @@ export const fallbackPosts: BlogPost[] = [
     author: "My MetaTrader Team",
     category: "Yield",
     tags: ["RealYield", "Stablecoins", "Vaults"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd2/LDTS_mE7OCoFdHrr9Tudf.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Most DeFi protocols promise yield that comes from printing new tokens. When the emissions slow, the yield collapses. My MetaTrader deposit vaults are built on #RealYield — income generated from actual trading fees and protocol revenue, not inflationary token rewards.</p>
@@ -483,7 +483,7 @@ export const fallbackPosts: BlogPost[] = [
     author: "My MetaTrader Team",
     category: "DeFi",
     tags: ["Leverage", "Risk Management", "DeFi", "Liquidation", "Position Sizing"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd2/kAhXJlZJMmmFVABn9OVb5.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Leverage is the defining feature of modern decentralized finance trading, and nowhere is it more powerful than on platforms offering extreme ratios that dwarf anything available in traditional markets. At My MetaTrader, traders can access up to 1000x leverage, a figure that transforms even modest capital into substantial market exposure. But leverage is a double-edged sword, and understanding its mechanics is the difference between consistent profitability and catastrophic loss. This article provides a comprehensive deep dive into how leverage works in DeFi, the specific risks it introduces, the rewards it offers to disciplined traders, and the risk management frameworks that separate professionals from gamblers.</p>
