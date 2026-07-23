@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mymetatrader.finance/sitemap-index.xml
